@@ -1,0 +1,136 @@
+baseURL = "https://kartikvishwanath.com/"
+languageCode = "en-us"
+title = "Kartik Vishwanath"
+theme = "devresume"
+
+[params]
+    author = "Kartik Vishwanath"
+    description = ""
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Kartik Vishwanath"
+        tagline = "Engineering Leader @ Amazon"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Seattle"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:kartikq@gmai.com"
+        text = "kartikq@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://kartikvishwanath.com"
+        text = "kartikvishwanath.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Distributed Systems"
+        [[params.skills.list.items]]
+        details = "Engineering Leadership"
+        [[params.skills.list.items]]
+        details = "Software Architecture/Design"
+        [[params.skills.list.items]]
+        details = "People Management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MS in Computer Science"
+        university = "University of Missouri - Kansas City"
+        dates = "2003 - 2005"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Tamil"
+        level = "Native"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Books"
+        [[params.interests.list]]
+        name = "Podcasts"
+        [[params.interests.list]]
+        name = "Music"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = "Engineering leader at Amazon"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Engineering Leader @ AWS Lambda"
+        dates = "2018 - Present"
+        company = "Amazon"
+        details = "AWS Lambda (https://aws.amazon.com/lambda) is changing the way that companies big and small think about computing in the cloud. Lambda functions offer customers a serverless way to create applications, an approach that lets customers turn business logic and application code into scalable, fault-tolerant production systems without requiring every developer to become an expert in distributed systems, deployment technologies, and infrastructure management.I am looking for smart software engineers who want to work at cutting edge scale and help push the boundaries of serverless computing in the cloud."
+    
+        [[params.experience.list]]
+        title = "Software Development Manager @ Amazon"
+        dates = "2015 - 2018"
+        company = "Amazon"
+        details = "I lead the Amazon Catalog Fact Extraction platform team. The Fact Extraction platform team aims to build the next generation real-time machine learning platform that combines machine learning techniques, information retrieval and natural language processing to automatically discover and extract important product features from raw unstructured text. We process billions of records about products every day ranging from electronics to cosmetics. We have built a highly distributed platform that can operate at Amazon scale (currently ~100 million product updates /day and counting!) with single digit ms latencies"
+        
+        [[params.experience.list]]
+        title = "Software Architect"
+        dates = "2012 - 2015"
+        company = "Cerner"
+        details = "Principal engineer on the platform, designed architecture and implemented ‘critical-path’ code. System processed and stored ~2 billion documents with search latencies under 120 ms. Platform capabilities included support for both batch and real time search index generation, auto-sharding and high availability. Responsibilities included establishing a technical roadmap for the platform, maintaining and protecting architecture integrity, mentoring team members."
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2008 - 2012"
+        company = "Childrens Mercy Hospital & Clinics"
+        details = ""
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2005 · MachineProse: an Ontological Framework for Scientific Assertions. JAMIA (Journal of American Medical Informatics Association)"
+        [[params.information.list]]
+        title = "Interests"
+        details = "Books, Podcasts, Music, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/kartikq"
+        title = "kartikq"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/kartikvishwanath"
+        title = "kartikvishwanath"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/kartikq"
+        title = "@kartikq"
